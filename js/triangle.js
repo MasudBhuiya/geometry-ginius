@@ -1,12 +1,10 @@
 document.getElementById('btn-traingle').addEventListener('click', function(){
     const traingleFieldOne = getInputValueById('triangle-field-one');
     const traingleFieldTwo = getInputValueById('triangle-field-two');
-    const traingleTotal = 0.5 * traingleFieldOne * traingleFieldTwo;
-    console.log(traingleTotal);
     
-
-    const areaCalculation = document.getElementById('area-calculation');
-    areaCalculation.innerText = traingleTotal;
+        const traingleTotal = 0.5 * traingleFieldOne * traingleFieldTwo;
+        setAlert(traingleFieldOne,traingleFieldTwo,traingleTotal );
+    
     // const section = document.createElement('section');
     // section.innerHTML = traingleTotal;
     // areaCalculation.appendChild = section;

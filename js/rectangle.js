@@ -3,10 +3,8 @@ document.getElementById('btn-rectangle').addEventListener('click', function(){
     const rectangleFieldTwo= getInputValueById('rectangle-field-two');
     const rectangleTotal = rectangleFieldOne * rectangleFieldTwo;
 
-    const areaCalculation = document.getElementById('area-calculation');
-    areaCalculation.innerText = rectangleTotal;
 
-
+    setAlert(rectangleFieldOne, rectangleFieldTwo, rectangleTotal)
 
     // areaCalculation.innerText = rectangleTotal;
 })
