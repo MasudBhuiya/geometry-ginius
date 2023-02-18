@@ -9,7 +9,9 @@ document.getElementById('btn-traingle').addEventListener('click', function(){
 
     setAlert(traingleFieldOne,traingleFieldTwo,traingleTotal );
 
-    
-    
-    
 })
+
+function trytoadd(){
+    const btnAdd = document.getElementById('btn-add').innerText;
+    console.log(btnAdd)
+}

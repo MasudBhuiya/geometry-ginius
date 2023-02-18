@@ -29,19 +29,23 @@ function setAlert(one, two, three){
         areaCalculationById( name, total, 0, areaCalculation)
     }
 }
+
 let num = 0;
+
 function areaCalculationById(num2, num3, num4, name){
+    let button = 'Convert to m²'
+    
+
     let no =num + 1;
     num = no;
+
     const tr = document.createElement('tr');
     tr.innerHTML = `
-    <td>${num}</td> 
-    <td >${num2}</td>  
+    <td>${num}</td>
+    <td >${num2}</td>
     <td>${num3}</td>
-    <td>${num4}</td>
+    <td>${button}</td>
     `
     name.appendChild(tr);
 }
-
-
     
